@@ -1,0 +1,626 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
+
+/* start of navbar */
+.head {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: linear-gradient(to right, black, black);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name {
+    color: lavenderblush;
+    display: block;
+    margin: auto;
+    background-color: transparent;
+    border: transparent;
+    font-size: 30px;
+    margin-top: 15px;
+    text-shadow: 0px 0px 10px lavenderblush;
+    font-family: 'Eczar', serif
+}
+
+.name:hover {
+    transition: letter-spacing 0.5s;
+    letter-spacing: 3px;
+}
+
+/* ul elements start */
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-family: 'Eczar', serif;
+    font-size: 30px;
+}
+
+.active>button {
+    color: white;
+    background-color: transparent;
+    border: transparent;
+    text-decoration: underline;
+    /* font-size: 50px; */
+    text-shadow: 0px 0px 10px currentColor;
+    color: lightgreen;
+}
+
+.head>ul>li>a {
+    text-shadow: 0px 0px 15px currentColor;
+    text-decoration: none;
+    color: lightgoldenrodyellow;
+}
+
+
+.head>ul>li>a:hover {
+    color: lightblue;
+    /* font-size: 35px; */
+}
+
+/* ul elements end */
+
+/* end of nav bar */
+
+
+
+body {
+    background-image: url("/images/naya.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* --common to all-- ends here */
+
+
+.container {
+    /* display: block; */
+    background-color: black;
+    margin-top: 15%;
+    color: white;
+    border-radius: 25px;
+    border: lavenderblush;
+    border-style: solid;
+    border-width: thin;
+    padding: 2%;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 100%;
+}
+
+.container>h1 {
+    background-image: url("images/gradient.gif");
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 45px;
+}
+
+.container>p {
+    font-size: 30px;
+}
+
+.container>p>b>a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.container>p>b>a:hover {
+    color: blue;
+}
+
+.container>a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-width: 0ch;
+    padding: 1%;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.container>a:hover {
+    background-color: blue;
+    color: white;
+}
+
+/* end of code */
+
+
+/* media queries from here */
+@media (max-width:320px) {
+    .name {
+        color: lavenderblush;
+        display: block;
+        margin: auto;
+        background-color: transparent;
+        border: transparent;
+        font-size: 15px;
+        margin-top: 15px;
+        text-shadow: 0px 0px 10px lavenderblush;
+        font-family: 'Eczar', serif;
+    }
+
+    /* ul elements start */
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        font-family: 'Eczar', serif;
+        font-size: 11px;
+        padding-left: 0%;
+    }
+
+
+    /* common to all ends here */
+    .myphoto {
+        margin-top: 40%;
+        margin-left: 35%;
+        width: 80px;
+        margin-bottom: -50px;
+    }
+
+
+    .container {
+        /* display: block; */
+        background-color: black;
+        margin-top: 30%;
+        color: white;
+        border-radius: 10px;
+        border: lavenderblush;
+        border-style: solid;
+        border-width: thin;
+        padding: 2%;
+        font-family: 'Quicksand', sans-serif;
+        margin-bottom: 100%;
+    }
+
+    .container>h1 {
+        background-color: aqua;
+        background-image: url("images/gradient.gif");
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-size: 15px;
+    }
+
+    .container>p {
+        font-size: 10px;
+    }
+
+    .container>p>b>a {
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+    }
+
+    .container>a {
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        border-width: 0ch;
+        padding: 1%;
+        border-radius: 10px;
+        font-size: 8px;
+    }
+
+
+}
+
+@media (min-width:321px) and (max-width:480px) {
+    .name {
+        color: lavenderblush;
+        display: block;
+        margin: auto;
+        background-color: transparent;
+        border: transparent;
+        font-size: 15px;
+        margin-top: 18px;
+        text-shadow: 0px 0px 10px lavenderblush;
+        font-family: 'Eczar', serif;
+    }
+
+    /* ul elements start */
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        font-family: 'Eczar', serif;
+        font-size: 15px;
+        padding-left: 0%;
+    }
+
+    /* common to all ends here */
+    .myphoto {
+        margin-top: 30%;
+        margin-left: 40%;
+        width: 100px;
+        margin-bottom: -50px;
+    }
+
+    .container {
+        /* display: block; */
+        background-color: black;
+        /* margin-top: 50%; */
+        color: white;
+        border-radius: 12px;
+        border: lavenderblush;
+        border-style: solid;
+        border-width: thin;
+        padding: 2%;
+        font-family: 'Quicksand', sans-serif;
+        margin-bottom: 100%;
+    }
+
+    .container>h1 {
+        background-color: aqua;
+        background-image: url("images/gradient.gif");
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-size: 18px;
+    }
+
+    .container>p {
+        font-size: 15px;
+    }
+
+    .container>p>b>a {
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .container>a {
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        border-width: 0ch;
+        padding: 1%;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    .name {
+        color: lavenderblush;
+        display: block;
+        margin: auto;
+        background-color: transparent;
+        border: transparent;
+        font-size: 20px;
+        margin-top: 20px;
+        text-shadow: 0px 0px 10px lavenderblush;
+        font-family: 'Eczar', serif;
+    }
+
+    /* ul elements start */
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        font-family: 'Eczar', serif;
+        font-size: 20px;
+        padding-left: 0%;
+    }
+
+    /* common to all ends here */
+
+    .myphoto {
+        margin-top: 25%;
+        margin-left: 35%;
+        width: 200px;
+        margin-bottom: -50px;
+    }
+
+
+    .container {
+        /* display: block; */
+        background-color: black;
+        /* margin-top: 30%; */
+        color: white;
+        border-radius: 12px;
+        border: lavenderblush;
+        border-style: solid;
+        border-width: thin;
+        padding: 2%;
+        font-family: 'Quicksand', sans-serif;
+        margin-bottom: 100%;
+    }
+
+    .container>h1 {
+        background-color: aqua;
+        background-image: url("images/gradient.gif");
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-size: 18px;
+    }
+
+    .container>p {
+        font-size: 15px;
+    }
+
+    .container>p>b>a {
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .container>a {
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        border-width: 0ch;
+        padding: 1%;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+
+
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+
+    .name {
+        color: lavenderblush;
+        display: block;
+        margin: auto;
+        background-color: transparent;
+        border: transparent;
+        font-size: 25px;
+        margin-top: 20px;
+        text-shadow: 0px 0px 10px lavenderblush;
+        font-family: 'Eczar', serif;
+    }
+
+    /* ul elements start */
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        font-family: 'Eczar', serif;
+        font-size: 25px;
+        padding-left: 0%;
+    }
+
+
+    /* common to all ends here */
+    .myphoto {
+        margin-top: 25%;
+        margin-left: 37%;
+        width: 240px;
+        margin-bottom: -50px;
+    }
+
+    .container {
+        /* display: block; */
+        background-color: black;
+        /* margin-top: 30%; */
+        color: white;
+        border-radius: 15px;
+        border: lavenderblush;
+        border-style: solid;
+        border-width: thin;
+        padding: 2%;
+        font-family: 'Quicksand', sans-serif;
+        margin-bottom: 100%;
+    }
+
+    .container>h1 {
+        background-color: aqua;
+        background-image: url("images/gradient.gif");
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-size: 30px;
+    }
+
+    .container>p {
+        font-size: 20px;
+    }
+
+    .container>p>b>a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .container>a {
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        border-width: 0ch;
+        padding: 1%;
+        border-radius: 10px;
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width:1025px) and (max-width:1280px) {
+    .head {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-image: linear-gradient(to right, black, black);
+        background-repeat: no-repeat;
+        background-size: 20000px 20000px;
+    }
+
+    .name {
+        color: lavenderblush;
+        display: block;
+        margin: auto;
+        background-color: transparent;
+        border: transparent;
+        font-size: 28px;
+        margin-top: 20px;
+        text-shadow: 0px 0px 10px lavenderblush;
+        font-family: 'Eczar', serif;
+    }
+
+    /* ul elements start */
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        font-family: 'Eczar', serif;
+        font-size: 28px;
+        padding-left: 0%;
+    }
+
+    /* common to all ends here */
+    .myphoto {
+        margin-top: 15%;
+        margin-left: 38%;
+        width: 250px;
+        margin-bottom: -150px;
+    }
+
+    .container {
+        background-color: black;
+        /* margin-top: 30%; */
+        color: white;
+        border-radius: 18px;
+        border: lavenderblush;
+        border-style: solid;
+        border-width: thin;
+        padding: 2%;
+        font-family: 'Quicksand', sans-serif;
+        margin-bottom: 100%;
+    }
+
+    .container>h1 {
+        background-color: aqua;
+        background-image: url("images/gradient.gif");
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-size: 27px;
+    }
+
+    .container>p {
+        font-size: 23px;
+    }
+
+    .container>p>b>a {
+        color: white;
+        text-decoration: none;
+        font-size: 23px;
+    }
+
+    .container>a {
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        border-width: 0ch;
+        padding: 1%;
+        border-radius: 10px;
+        font-size: 23px;
+    }
+
+}
+
+@media (min-width:1281px) {
+    .head {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-image: linear-gradient(to right, black, black);
+        background-repeat: no-repeat;
+        background-size: 20000px 20000px;
+    }
+
+    .name {
+        color: lavenderblush;
+        display: block;
+        margin: auto;
+        background-color: transparent;
+        border: transparent;
+        font-size: 30px;
+        margin-top: 20px;
+        text-shadow: 0px 0px 10px lavenderblush;
+        font-family: 'Eczar', serif;
+    }
+
+    /* ul elements start */
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        font-family: 'Eczar', serif;
+        font-size: 30px;
+        padding-left: 0%;
+    }
+
+    /* common to all ends here */
+    .myphoto {
+        margin-top: 10%;
+        margin-left: 40%;
+        width: 300px;
+        margin-bottom: -200px;
+    }
+
+    body {
+        background-image: url("/images/naya.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .container {
+        /* display: block; */
+        background-color: black;
+        /* margin-top: 20%; */
+        color: white;
+        border-radius: 20px;
+        border: lavenderblush;
+        border-style: solid;
+        border-width: thin;
+        padding: 2%;
+        font-family: 'Quicksand', sans-serif;
+        margin-bottom: 100%;
+    }
+
+    .container>h1 {
+        background-color: aqua;
+        background-image: url("images/gradient.gif");
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-size: 35px;
+    }
+
+    .container>p {
+        font-size: 30px;
+    }
+
+    .container>p>b>a {
+        color: white;
+        text-decoration: none;
+        font-size: 30px;
+    }
+
+    .container>a {
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        border-width: 0ch;
+        padding: 1%;
+        border-radius: 10px;
+        font-size: 23px;
+    }
+
+
+}

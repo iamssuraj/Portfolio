@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
+
+/* start of navbar */
+.head {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: linear-gradient(to right, black, black);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name {
+    color: lavenderblush;
+    display: block;
+    margin: auto;
+    background-color: transparent;
+    border: transparent;
+    font-size: 30px;
+    margin-top: 15px;
+    text-shadow: 0px 0px 10px lavenderblush;
+    font-family: 'Eczar', serif;
+    text-decoration: dashed;
+}
+
+.name:hover {
+    transition: letter-spacing 0.5s;
+    letter-spacing: 3px;
+}
+
+/* ul elements start */
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-family: 'Eczar', serif;
+    font-size: 30px;
+}
+
+.active>button {
+    color: white;
+    background-color: transparent;
+    border: transparent;
+    text-decoration: underline;
+    /* font-size: 50px; */
+    text-shadow: 0px 0px 10px currentColor;
+    color: lightgreen;
+}
+
+.head>ul>li>a {
+    text-shadow: 0px 0px 15px currentColor;
+    text-decoration: none;
+    color: lightgoldenrodyellow;
+}
+
+
+.head>ul>li>a:hover {
+    color: lightblue;
+    /* font-size: 35px; */
+}
+
+/* ul elements end */
+
+/* end of nav bar */
+
+
+
+body {
+    background-image: url("/images/contactme.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* --common to all-- ends here */
+
+
+
+
+
+
+.container {
+    background-color: black;
+    margin-top: 11%;
+    color: white;
+    border-radius: 25px;
+    border: lavenderblush;
+    border-style: solid;
+    border-width: thin;
+    padding: 2%;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 100%;
+    margin-left: 15%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+ol {
+    list-style-type: none;
+}
+
+
+
+.up>b {
+    color: sandybrown;
+    text-shadow: 0px 0px 10px sandybrown;
+}
+
+.container>.up {
+    padding-top: 10%;
+    padding-right: 1.5%;
+    border-right: 2px solid lavenderblush;
+    flex-basis: 2000px;
+}
+
+.container>.down {
+    font-size: 30px;
+    padding: 5%;
+    flex-basis: 1000px;
+}
+
+
+.container>.up>img {
+    display: block;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+}
+
+
+
+
+/* Links section starts here */
+
+ol>li>a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ol>li>a:hover {
+    color: lightgray;
+}
+
+.Insta:hover {
+    color: lightgray;
+}
+
+.mail {
+    color: orange;
+}
+
+.Linkedin {
+    color: #04669A;
+}
+
+.Insta {
+    background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Quora {
+    color: red
+}
+
+.Twitter {
+    color: #00B6F1;
+}
+
+.facebook {
+    color: #3B5998;
+}
+
+.Github {
+    color:darkgrey
+}
+
+
+@media (max-width:320px) {
+    .name {
+        color: lavenderblush;
+        display: block;
+        margin: auto;
+        background-color: transparent;
+        border: transparent;
+        font-size: 15px;
+        margin-top: 15px;
+        text-shadow: 0px 0px 10px lavenderblush;
+        font-family: 'Eczar', serif;
+    }
+
+    /* ul elements start */
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        font-family: 'Eczar', serif;
+        font-size: 11px;
+        padding-left: 0%;
+    }
+
+
+    /* common to all ends here */
+    .container {
+        background-color: black;
+        margin-top: 50%;
+        color: white;
+        border-radius: 25px;
+        border: lavenderblush;
+        border-style: solid;
+        border-width: thin;
+        padding: 2%;
+        font-family: 'Quicksand', sans-serif;
+        margin-bottom: 100%;
+        margin-left: auto;
+        font-size: 11px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container>.up {
+        padding-top: 30%;
+        padding-right: 35px;
+        padding-left: 15px;
+        border-right: 2px solid lavenderblush;
+        flex-basis: 500px;
+    }
+
+    .container>.down {
+        font-size: 11px;
+        padding: 5%;
+        padding-left: 0%;
+        flex-basis: 500px;
+    }
+
+    .container>.up>img {
+        display: block;
+        margin: auto;
+        width: 100px;
+        height: auto;
+    }
+
+}
+
+@media (min-width:321px) and (max-width:480px) {
+    .name {
+        color: lavenderblush;
+        display: block;
+        margin: auto;
+        background-color: transparent;
+        border: transparent;
+        font-size: 15px;
+        margin-top: 18px;
+        text-shadow: 0px 0px 10px lavenderblush;
+        font-family: 'Eczar', serif;
+    }
+
+    /* ul elements start */
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        font-family: 'Eczar', serif;
+        font-size: 15px;
+        padding-left: 0%;
+    }
+
+    /* common to all ends here */
+    .container {
+        background-color: black;
+        margin-top: 45%;
+        color: white;
+        border-radius: 25px;
+        border: lavenderblush;
+        border-style: solid;
+        border-width: thin;
+        padding: 2%;
+        font-family: 'Quicksand', sans-serif;
+        margin-bottom: 100%;
+        margin-left: auto;
+        font-size: 15px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container>.up {
+        padding-top: 15%;
+        padding-right: 35px;
+        padding-left: 5px;
+        border-right: 2px solid lavenderblush;
+        flex-basis: 500px;
+    }
+
+    .container>.down {
+        font-size: 15px;
+        padding: 5%;
+        padding-left: 0%;
+        flex-basis: 500px;
+    }
+
+    .container>.up>img {
+        display: block;
+        margin: auto;
+        width: 150px;
+        height: auto;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    .name {
+        color: lavenderblush;
+        display: block;
+        margin: auto;
+        background-color: transparent;
+        border: transparent;
+        font-size: 20px;
+        margin-top: 20px;
+        text-shadow: 0px 0px 10px lavenderblush;
+        font-family: 'Eczar', serif;
+    }
+
+    /* ul elements start */
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        font-family: 'Eczar', serif;
+        font-size: 20px;
+        padding-left: 0%;
+    }
+
+    /* common to all ends here */
+    .container {
+        background-color: black;
+        margin-top: 25%;
+        color: white;
+        border-radius: 25px;
+        border: lavenderblush;
+        border-style: solid;
+        border-width: thin;
+        padding: 2%;
+        font-family: 'Quicksand', sans-serif;
+        margin-bottom: 100%;
+        margin-left: auto;
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container>.up {
+        padding-top: 7%;
+        padding-right: 35px;
+        padding-left: 15px;
+        border-right: 2px solid lavenderblush;
+        flex-basis: 500px;
+    }
+
+    .container>.down {
+        font-size: 20px;
+        padding: 5%;
+        padding-left: 0%;
+        flex-basis: 500px;
+    }
+
+    .container>.up>img {
+        display: block;
+        margin: auto;
+        width: 200px;
+        height: auto;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+
+    .name {
+        color: lavenderblush;
+        display: block;
+        margin: auto;
+        background-color: transparent;
+        border: transparent;
+        font-size: 25px;
+        margin-top: 20px;
+        text-shadow: 0px 0px 10px lavenderblush;
+        font-family: 'Eczar', serif;
+    }
+
+    /* ul elements start */
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        font-family: 'Eczar', serif;
+        font-size: 25px;
+        padding-left: 0%;
+    }
+
+
+    /* common to all ends here */
+    .container {
+        background-color: black;
+        margin-top: 25%;
+        color: white;
+        border-radius: 25px;
+        border: lavenderblush;
+        border-style: solid;
+        border-width: thin;
+        padding: 2%;
+        font-family: 'Quicksand', sans-serif;
+        margin-bottom: 100%;
+        margin-left: auto;
+        font-size: 25px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container>.up {
+        padding-top: 5%;
+        padding-right: 35px;
+        padding-left: 15px;
+        border-right: 2px solid lavenderblush;
+        flex-basis: 500px;
+    }
+
+    .container>.down {
+        font-size: 25px;
+        padding: 5%;
+        padding-left: 0%;
+        flex-basis: 500px;
+    }
+
+    .container>.up>img {
+        display: block;
+        margin: auto;
+        width: 250px;
+        height: auto;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1280px) {
+    .head {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-image: linear-gradient(to right, black, black);
+        background-repeat: no-repeat;
+        background-size: 20000px 20000px;
+    }
+
+    .name {
+        color: lavenderblush;
+        display: block;
+        margin: auto;
+        background-color: transparent;
+        border: transparent;
+        font-size: 28px;
+        margin-top: 20px;
+        text-shadow: 0px 0px 10px lavenderblush;
+        font-family: 'Eczar', serif;
+    }
+
+    /* ul elements start */
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        font-family: 'Eczar', serif;
+        font-size: 28px;
+        padding-left: 0%;
+    }
+
+    /* common to all ends here */
+    .container {
+        background-color: black;
+        margin-top: 25%;
+        color: white;
+        border-radius: 25px;
+        border: lavenderblush;
+        border-style: solid;
+        border-width: thin;
+        padding: 2%;
+        font-family: 'Quicksand', sans-serif;
+        margin-bottom: 100%;
+        margin-left: auto;
+        font-size: 28px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container>.up {
+        padding-top: 5%;
+        padding-right: 35px;
+        padding-left: 15px;
+        border-right: 2px solid lavenderblush;
+        flex-basis: 500px;
+    }
+
+    .container>.down {
+        font-size: 28px;
+        padding: 5%;
+        padding-left: 0%;
+        flex-basis: 500px;
+    }
+
+    .container>.up>img {
+        display: block;
+        margin: auto;
+        width: 250px;
+        height: auto;
+    }
+}
+
+@media (min-width:1280px) {
+    .head {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-image: linear-gradient(to right, black, black);
+        background-repeat: no-repeat;
+        background-size: 20000px 20000px;
+    }
+
+    .name {
+        color: lavenderblush;
+        display: block;
+        margin: auto;
+        background-color: transparent;
+        border: transparent;
+        font-size: 30px;
+        margin-top: 20px;
+        text-shadow: 0px 0px 10px lavenderblush;
+        font-family: 'Eczar', serif;
+    }
+
+    /* ul elements start */
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        font-family: 'Eczar', serif;
+        font-size: 30px;
+        padding-left: 0%;
+    }
+
+    /* common to all ends here */
+    .container {
+        background-color: black;
+        margin-top: 20%;
+        color: white;
+        border-radius: 25px;
+        border: lavenderblush;
+        border-style: solid;
+        border-width: thin;
+        padding: 2%;
+        font-family: 'Quicksand', sans-serif;
+        margin-bottom: 100%;
+        margin-left: auto;
+        font-size: 30px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container>.up {
+        padding-top: 5%;
+        padding-right: 100px;
+        border-right: 2px solid lavenderblush;
+        /* flex-basis: 500px; */
+    }
+
+    .container>.down {
+        font-size: 30px;
+        padding: 5%;
+        padding-left: 10%;
+        /* flex-basis: 500px; */
+    }
+
+    .container>.up>img {
+        display: block;
+        margin: auto;
+        width: 250px;
+        height: auto;
+    }
+}
