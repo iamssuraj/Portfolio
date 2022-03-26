@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
+
+/* start of navbar */
+.head {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: linear-gradient(to right, black, black);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name {
+    color: lavenderblush;
+    display: block;
+    margin: auto;
+    background-color: transparent;
+    border: transparent;
+    font-size: 30px;
+    margin-top: 15px;
+    text-shadow: 0px 0px 10px lavenderblush;
+    font-family: 'Eczar', serif;
+    text-decoration: dashed;
+}
+
+.name:hover {
+    transition: letter-spacing 0.5s;
+    letter-spacing: 3px;
+}
+
+/* ul elements start */
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-family: 'Eczar', serif;
+    font-size: 30px;
+}
+
+.active>button {
+    color: white;
+    background-color: transparent;
+    border: transparent;
+    text-decoration: underline;
+    /* font-size: 50px; */
+    text-shadow: 0px 0px 10px currentColor;
+    color: lightgreen;
+}
+
+.head>ul>li>a {
+    text-shadow: 0px 0px 15px currentColor;
+    text-decoration: none;
+    color: lightgoldenrodyellow;
+}
+
+
+.head>ul>li>a:hover {
+    color: lightblue;
+    /* font-size: 35px; */
+}
+
+/* ul elements end */
+
+/* end of nav bar */
+
+
+
+body {
+    background-image: url("/images/wheel.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* --common to all-- ends here */
+
+.container {
+    background-color: black;
+    margin-top: 15%;
+    color: white;
+    border-radius: 25px;
+    border: lavenderblush;
+    border-style: solid;
+    border-width: thin;
+    padding: 2%;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 100%;
+    margin-left: 10%;
+    font-size: 23px;
+}
+
+ol {
+    list-style-type: square;
+}
+
+ol>li>b>a {
+    text-decoration: none;
+    color: sandybrown;
+}
+span
+{
+    font-weight: bold;
+    color: sandybrown;
+}
+ol>li>b>a:hover {
+    color: blue;
+}
+
+@media (max-width:320px) {
+    .name {
+        color: lavenderblush;
+        display: block;
+        margin: auto;
+        background-color: transparent;
+        border: transparent;
+        font-size: 15px;
+        margin-top: 15px;
+        text-shadow: 0px 0px 10px lavenderblush;
+        font-family: 'Eczar', serif;
+    }
+
+    /* ul elements start */
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        font-family: 'Eczar', serif;
+        font-size: 11px;
+        padding-left: 0%;
+    }
+
+
+    /* common to all ends here */
+    .container {
+        background-color: black;
+        margin-top: 40%;
+        color: white;
+        border-radius: 25px;
+        border: lavenderblush;
+        border-style: solid;
+        border-width: thin;
+        padding: 2%;
+        font-family: 'Quicksand', sans-serif;
+        margin-bottom: 100%;
+        margin-left: 0%;
+        font-size: 11px;
+    }
+}
+
+@media (min-width:321px) and (max-width:480px) {
+    .name {
+        color: lavenderblush;
+        display: block;
+        margin: auto;
+        background-color: transparent;
+        border: transparent;
+        font-size: 15px;
+        margin-top: 18px;
+        text-shadow: 0px 0px 10px lavenderblush;
+        font-family: 'Eczar', serif;
+    }
+
+    /* ul elements start */
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        font-family: 'Eczar', serif;
+        font-size: 15px;
+        padding-left: 0%;
+    }
+
+    /* common to all ends here */
+    .container {
+        background-color: black;
+        margin-top: 40%;
+        color: white;
+        border-radius: 25px;
+        border: lavenderblush;
+        border-style: solid;
+        border-width: thin;
+        padding: 2%;
+        font-family: 'Quicksand', sans-serif;
+        margin-bottom: 100%;
+        margin-left: 0%;
+        font-size: 15px;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    .name {
+        color: lavenderblush;
+        display: block;
+        margin: auto;
+        background-color: transparent;
+        border: transparent;
+        font-size: 20px;
+        margin-top: 20px;
+        text-shadow: 0px 0px 10px lavenderblush;
+        font-family: 'Eczar', serif;
+    }
+
+    /* ul elements start */
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        font-family: 'Eczar', serif;
+        font-size: 20px;
+        padding-left: 0%;
+    }
+
+    /* common to all ends here */
+    .container {
+        background-color: black;
+        margin-top: 40%;
+        color: white;
+        border-radius: 25px;
+        border: lavenderblush;
+        border-style: solid;
+        border-width: thin;
+        padding: 2%;
+        font-family: 'Quicksand', sans-serif;
+        margin-bottom: 100%;
+        margin-left: auto;
+        font-size: 20px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+
+    .name {
+        color: lavenderblush;
+        display: block;
+        margin: auto;
+        background-color: transparent;
+        border: transparent;
+        font-size: 25px;
+        margin-top: 20px;
+        text-shadow: 0px 0px 10px lavenderblush;
+        font-family: 'Eczar', serif;
+    }
+
+    /* ul elements start */
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        font-family: 'Eczar', serif;
+        font-size: 25px;
+        padding-left: 0%;
+    }
+
+
+    /* common to all ends here */
+    .container {
+        background-color: black;
+        margin-top: 30%;
+        color: white;
+        border-radius: 25px;
+        border: lavenderblush;
+        border-style: solid;
+        border-width: thin;
+        padding: 2%;
+        font-family: 'Quicksand', sans-serif;
+        margin-bottom: 100%;
+        margin-left: auto;
+        font-size: 20px;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1280px) {
+    .head {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-image: linear-gradient(to right, black, black);
+        background-repeat: no-repeat;
+        background-size: 20000px 20000px;
+    }
+
+    .name {
+        color: lavenderblush;
+        display: block;
+        margin: auto;
+        background-color: transparent;
+        border: transparent;
+        font-size: 28px;
+        margin-top: 20px;
+        text-shadow: 0px 0px 10px lavenderblush;
+        font-family: 'Eczar', serif;
+    }
+
+    /* ul elements start */
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        font-family: 'Eczar', serif;
+        font-size: 28px;
+        padding-left: 0%;
+    }
+
+    /* common to all ends here */
+    .container {
+        background-color: black;
+        margin-top: 20%;
+        color: white;
+        border-radius: 25px;
+        border: lavenderblush;
+        border-style: solid;
+        border-width: thin;
+        padding: 2%;
+        font-family: 'Quicksand', sans-serif;
+        margin-bottom: 100%;
+        margin-left: auto;
+        font-size: 20px;
+    }
+}
+
+@media (min-width:1280px) {
+    .head {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-image: linear-gradient(to right, black, black);
+        background-repeat: no-repeat;
+        background-size: 20000px 20000px;
+    }
+
+    .name {
+        color: lavenderblush;
+        display: block;
+        margin: auto;
+        background-color: transparent;
+        border: transparent;
+        font-size: 30px;
+        margin-top: 20px;
+        text-shadow: 0px 0px 10px lavenderblush;
+        font-family: 'Eczar', serif;
+    }
+
+    /* ul elements start */
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        font-family: 'Eczar', serif;
+        font-size: 30px;
+        padding-left: 0%;
+    }
+
+    /* common to all ends here */
+    .container {
+        background-color: black;
+        margin-top: 18%;
+        color: white;
+        border-radius: 25px;
+        border: lavenderblush;
+        border-style: solid;
+        border-width: thin;
+        padding: 2%;
+        font-family: 'Quicksand', sans-serif;
+        margin-bottom: 100%;
+        margin-left: auto;
+        font-size: 30px;
+    }
+}
