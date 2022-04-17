@@ -105,14 +105,6 @@ body {
 ol {
     list-style-type: disc;
 }
-@counter-style linkarrow {
-    system: cyclic;
-    symbols: "\00BB";
-    suffix: " ";
-  }
-.linksclass {
-    list-style-type: linkarrow;
-}
 
 /* media queries from here */
 @media (max-width:320px) {
