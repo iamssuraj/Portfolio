@@ -66,7 +66,7 @@ ul {
 
 
 body {
-    background-image: url("/images/naya.gif");
+    background-image: url("/images/indexback.gif");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -570,13 +570,6 @@ body {
         width: 300px;
         margin-bottom: -200px;
     }
-
-    body {
-        background-image: url("/images/naya.gif");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
 
     .container {
         /* display: block; */
