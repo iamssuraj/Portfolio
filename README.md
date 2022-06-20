@@ -1,3 +1,4 @@
 # Portfolio
 I designed this website using HTML, CSS, JavaScript and little bit of Bootstrap in about 21 hours.
-![Sample](https://user-images.githubusercontent.com/94124126/163703209-40f69378-ddd2-4523-9290-c0cf78e53f8a.png)
+![Snapshot](https://user-images.githubusercontent.com/94124126/173498127-43afa930-a6b6-480a-8da9-5842d07d0e46.png)
+
